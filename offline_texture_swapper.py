@@ -1,3 +1,5 @@
+#https://github.com/S-aiueo32/srntt-pytorch/blob/master/offline_texture_swapping.py
+
 import os
 import argparse
 import numpy as np
