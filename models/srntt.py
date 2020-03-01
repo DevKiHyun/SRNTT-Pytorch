@@ -110,6 +110,7 @@ class SRNTT(nn.Module):
 
         """ Reconstruct """
         x = self.reconstruct(x)
+        x = torch.clamp(x, min=0, max=1) # input range is [0,1]
         
         return x 
         
